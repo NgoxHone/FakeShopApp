@@ -1,0 +1,8 @@
+export const AppColors = {
+  titleColor: '#0082C2',
+  White: '#fff',
+  Gray: '#4c4c4c',
+  WhiteGray: '#e5e5e5',
+  BgColor: '#e9f0ee',
+  MainColor: '#5D8276',
+};
