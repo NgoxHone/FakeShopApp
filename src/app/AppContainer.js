@@ -3,15 +3,7 @@ import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {NavigationContainer} from '@react-navigation/native';
 import Splash from './Screens/Splash/Splash';
-import HomeScreen from './Screens/Home/HomeScreen';
 import {RootNavigation} from './Common/RootNavigation';
-import TourDetail from './Screens/Tourism/TourDetail';
-import GalleryDetail from './Screens/Gallery/GalleryDetail';
-import VideoDetail from './Screens/VideoContent/VideoDetail';
-import ListSrceen from './Screens/ListSrceen';
-import {createDrawerNavigator} from '@react-navigation/drawer';
-import News from './Screens/News';
-import Notify from './Screens/Notify';
 import TabNavigation from './Screens/Home/TabNavigation';
 
 export default function () {
@@ -24,10 +16,7 @@ export default function () {
           headerShown: false,
         }}>
         <MainStack.Screen name="Home" component={TabNavigation} />
-        <MainStack.Screen name="VideoDetail" component={VideoDetail} />
-        <MainStack.Screen name="TourDetail" component={TourDetail} />
-        <MainStack.Screen name="List" component={ListSrceen} />
-        <MainStack.Screen name="Notify" component={Notify} />
+
       </MainStack.Navigator>
     );
   };
