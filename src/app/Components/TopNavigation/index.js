@@ -21,7 +21,7 @@ const TopNavigation = ({navigation, title}) => {
           style={styles.BtnBack}>
           <Image
             style={{height: 23, width: 23}}
-            source={require('../../../asset/Icons/back.png')}
+            source={require('../../../asset/Image/568174.png')}
           />
         </TouchableOpacity>
         <Text style={{fontSize: 16, fontWeight: '700', marginLeft: 10,color:AppColors.Gray}}>

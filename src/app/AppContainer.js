@@ -5,6 +5,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import Splash from './Screens/Splash/Splash';
 import {RootNavigation} from './Common/RootNavigation';
 import TabNavigation from './Screens/Home/TabNavigation';
+import DetailProduct from './Screens/Home/DetailProduct';
 
 export default function () {
   const [visible, setVisible] = React.useState(false);
@@ -16,6 +17,7 @@ export default function () {
           headerShown: false,
         }}>
         <MainStack.Screen name="Home" component={TabNavigation} />
+        <MainStack.Screen name="DetailProduct" component={DetailProduct} />
 
       </MainStack.Navigator>
     );

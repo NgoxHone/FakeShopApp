@@ -2,7 +2,7 @@ import Axios from 'axios';
 import Global from '../LocalData/Global';
 
 export function getApi(url, params = {}, authen = true) {
-  return Axios.get(Global.API_URL + url, {
+  return Axios.get(url, {
     params: params,
     headers: {
       Authorization: authen ? `Bearer ${Global.accessToken}` : '',

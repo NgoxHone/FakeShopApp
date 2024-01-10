@@ -40,8 +40,8 @@ export default function TabNavigation() {
                 // source={require('../../../asset/Icons/home.png')}
                 source={{
                   uri: focused
-                    ? 'https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80'
-                    : 'https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg',
+                    ? 'https://cdn3.iconfinder.com/data/icons/web-and-mobile-colored-icons-vol-1/128/16-512.png'
+                    : 'https://cdn3.iconfinder.com/data/icons/web-and-mobile-colored-icons-vol-1/128/16-512.png',
                 }}
                 style={{
                   width: focused ? 35 : 30,
@@ -78,8 +78,8 @@ export default function TabNavigation() {
                 // source={require('../../../asset/Icons/home.png')}
                 source={{
                   uri: focused
-                    ? 'https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80'
-                    : 'https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg',
+                    ? 'https://cdn-icons-png.flaticon.com/512/771/771203.png'
+                    : 'https://cdn-icons-png.flaticon.com/512/771/771203.png',
                 }}
                 style={{
                   width: focused ? 35 : 30,
